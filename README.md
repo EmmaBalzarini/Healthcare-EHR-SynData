@@ -40,7 +40,7 @@ We continued by modeling the data properties of the Person, since it is the enti
 This diagram was defined by looking at the available data, the project’s purpose and the competency questions.
 
 <br>
-
+<img src="Teleologies/Formal Modeling/Logic_model.pdf" width="300" align="center">
 
 <img src="Teleologies/Informal Modeling/EER_model.pdf" width="300" align="center">
 <br>
