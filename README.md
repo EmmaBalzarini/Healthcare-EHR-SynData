@@ -39,7 +39,8 @@ This diagram was defined by looking at the available data, the project’s purpo
 
 We introduced the Person eType in order to avoid redundancy of defining basic information about our personas (Doctor and Patient). Both of these eTypes extend the eType Person with additional properties unique to them. Moreover, we changed the eType Allergy to be an extension of the eType Condition. Initially, there were two distinct eTypes due to the fact that they were categorized differently in our initial datasets. However, after observing that these entities share all attributes we connected them via IS-A relationship.
 
-![](Teleologies/Formal Modeling/logic_model.jpg)
+<img src="Teleologies/Formal Modeling/logic_model.jpg" width="300" align="center">
+<br>
 
 <br>
 
