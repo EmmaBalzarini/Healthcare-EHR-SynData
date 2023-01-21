@@ -30,7 +30,7 @@ All datasets have been retrieved in .csv format. They vaired greatly in the numb
 ### Informal modeling phase
 
 In the informal modeling phase we integrated the knowledge layer with the data layer.
-For the knowledge layer we classified our resources into common core and contextual for each competency query. From this classification we defined 10 ETypes and the relationships between them. Then we integrate it by adding the data properties for each etype. 
+For the knowledge layer we classified our resources into common core and contextual for each competency query. From this classification we defined 10 ETypes and the relationships between them. Then we integrate it by adding the data properties for each etype. <br>
 
 From this classification of resources we defined our <b>ETypes</b> and their <b>properties</b> as shown below. \par In our ER model we started with two entities, namely Patient and Doctor, since they are our ideal users of the KG; we noticed they both shared most of the data properties, such as: name, address, date of birth, gender, race and language, hence we decided to create the superclass <b>Person</b> with the data properties listed, that will be inherited by its subclasses <b>Patient</b> and <b>Doctor</b>.
 We continued by modeling the data properties of the Person, since it is the entity that is linked with most data resources. We decided to model its connections as ETypes that have their own data properties.
@@ -40,15 +40,14 @@ We continued by modeling the data properties of the Person, since it is the enti
 This diagram was defined by looking at the available data, the project’s purpose and the competency questions.
 
 <br>
-<img src="Teleologies/Formal Modeling/Logic_model.pdf" width="300" align="center">
+<img src="Teleologies/Formal Modeling/Logic_model.jpg" width="300" align="center">
 
 <img src="Teleologies/Informal Modeling/EER_model.pdf" width="300" align="center">
 <br>
 
 <br>
 
-After that the dataset previously collected are filtered and handled to obtain more suit-
-able sets of data for our EER model.
+After that the dataset previously collected are filtered and handled to obtain more suit-able sets of data for our EER model.
 
 <br>
 <br>
