@@ -104,7 +104,7 @@ div#footer{
 	</div> <!-- chiusura navigation-->
 	
 	<div id="content">
-		<a name="descrizione"> 
+		<a name="descrizione"> <br><br>
 			<h2><b>Project description</h2></b>
 		<p text align:left> There is an increasing interest across European Union (EU) institutions, government and healthcare systems to digitalise the healthcare ecosystem. As it was proven by the COVID-19 pandemic, a digital healthcare ecosystem would facilitate across-borders processes, creating homogeneity across Europe. There is not a single common European Electronic Health Record (EHR) system for all EU member states. The objective of this project is to develop an easy-to-use knowledge graph that,  integrated with EHR data, will result in a tool that facilitates healthcare data visibility and transfer.
 The aim of the project is to build a knowledge graph (KG) concerning healthcare heterogeneous data about patients, professionals, facilities and other entities from European countries with different healthcare systems. This result could be the foundation to create a service which help the citizens to handle their own healthcare data, in a context in which the citizens moves around Europe. <br> <br>
@@ -119,23 +119,24 @@ This solution can potentially be used in clinics, pharmacies, hospitals and rese
 		</a>
 
 		<a name="resource"> 
-			<h2><b>Resources</h2></b>
+			<h2><b>Resources</h2></b><br><br>
 			
-		<p><b> Knoledge resources</b></p>
+		<p><b> Knoledge resources</b></p><br>
 
 		<p><a href="https://schema.org/"> Schema.org</a></p>
 		<p><a href="https://hl7.org/fhir/"> FHIR </a></p>
+			<br><br>
 			
-		<p><b> Data resources</b></p>
+		<p><b> Data resources</b></p><br>
 
 		<p><a href="https://synthea.mitre.org/"> Synthea</a> </p>
-		<p><a href="http://www.emrbots.org/"> EMRBOTS</a> </p>
+		<p><a href="http://www.emrbots.org/"> EMRBOTS</a> </p><br><br>
 
 
 
 		</a>
 		<a name="informal"> 
-			<h2><b>Informal modeling phase</h2></b>
+			<h2><b>Informal modeling phase</h2></b><br><br>
 		<p> In the informal modeling phase we integrated the knowledge layer with the data layer.
 For the knowledge layer we classified our resources into common core and contextual for each competency query. From this classification we defined 10 ETypes and the relationships between them. Then we integrate it by adding the data properties for each etype. <br>
 
@@ -153,12 +154,12 @@ This diagram was defined by looking at the available data, the project’s purpo
 <br>
 		</p>			
 <p> After that the dataset previously collected are filtered and handled to obtain more suit-able sets of data for our EER model.</p>
-		
+		<br><br>
 
 
 		</a>
 		<a name="formal">
-			<h2><b>Formal modeling phase</h2></b>
+			<h2><b>Formal modeling phase</h2></b><br><br>
 		<p>Starting from the informal schema described in the previous section, we built the ontology in Protégé. To define entities in accordance with the FHIR standard we used the resource to search our entities and the related data properties that were to be added. Next, we uploaded the base-schema to KOS in order to integrate it with the framework ontology provided by UKC (a multilingual lexico-semantic resource - Universal Knowledge 
 Core).
 This procedure resulted in a fully formal ETG. Its structure is shown below: </p>
@@ -176,11 +177,10 @@ representing an eType with its properties.
 
 The data integration process started by loading the ontology in owl format and the data sets into Karma. Once everything has been successfully loaded, we associated to each column its semantic type to align the data with the schema. The sub classes Patient and Doctor where not recognisedby  GraphDB, hence the data properties that were originally connected to them are now linked to the EType Person. The same goes for Hospital, which links are now on the EType Building.
 The same process was applied to the five remaining data sets. No issue was encountered during this phase, except for the modification needed after noticing the error in GraphDB. After creating the models in karma for each data set we exported the files in .ttl format and
-loaded them into GraphDB.
+loaded them into GraphDB.<br>
 			
 		</p>
-		<p> testo ed immagini della etg</p>
-		<p> testo ed immagini della etg</p>
+
 	
 		</a>
 	</div>
