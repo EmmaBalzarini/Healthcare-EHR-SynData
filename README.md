@@ -59,7 +59,7 @@ During this phase we proceed with the creation of an ontology using Protégé, t
 Starting from the informal schema described in the previous section, we built the ontology in Protégé. To define entities in accordance with the FHIR standard we used the resource to search our entities and the related data properties that were to be added. Next, we uploaded the base-schema to KOS in order to integrate it with the framework ontology provided by UKC (a multilingual lexico-semantic resource - Universal Knowledge
 Core).
 This procedure resulted in a fully formal ETG. Its structure is shown below: <br>
-<img src="Documentation/class_hierarchy.png" width="100" align="center">
+<img src="Documentation/class_hierarchy.png" width="200" align="center">
 
 <br>
 
