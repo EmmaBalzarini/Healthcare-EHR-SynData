@@ -40,7 +40,7 @@ We continued by modeling the data properties of the Person, since it is the enti
 This diagram was defined by looking at the available data, the project’s purpose and the competency questions.
 
 <br>
-<img src="Teleologies/Formal Modeling/Logic_model.jpg" width="300" align="center">
+<img src="Teleologies/Formal Modeling/logic_model.jpg" width="500" align="center">
 <br>
 
 <br>
@@ -59,7 +59,7 @@ During this phase we proceed with the creation of an ontology using Protégé, t
 Starting from the informal schema described in the previous section, we built the ontology in Protégé. To define entities in accordance with the FHIR standard we used the resource to search our entities and the related data properties that were to be added. Next, we uploaded the base-schema to KOS in order to integrate it with the framework ontology provided by UKC (a multilingual lexico-semantic resource - Universal Knowledge
 Core).
 This procedure resulted in a fully formal ETG. Its structure is shown below:
-<img src="">
+<img src="Documentation/class_hierarchy.png" width="300" align="center">
 
 <br>
 
@@ -78,4 +78,5 @@ The data integration process started by loading the ontology in owl format and t
 The same process was applied to the five remaining data sets. No issue was encountered during this phase, except for the modification needed after noticing the error in GraphDB. After creating the models in karma for each data set we exported the files in .ttl format and
 loaded them into GraphDB.
 <br>
+<img src="Documentation/encounterkarma.PNG" width="500" align="center">
 
